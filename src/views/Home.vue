@@ -94,8 +94,9 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 40px 180px 20px 100px;
+  padding: 40px 180px 20px 500px;
   width: 86%;
+
 }
 
 .aside { 
@@ -107,7 +108,7 @@ export default {
   text-align: center;
   background: rgba(252, 249, 249, 0.8); 
   height: 100vh;
-   
+  position: fixed;
 }
 
 .cart-label {

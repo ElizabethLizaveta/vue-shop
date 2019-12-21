@@ -5,7 +5,7 @@ import Axios from 'axios'
 
 Vue.use(Vuex)
 
-const server = 'http://172.16.1.71:3000/shop';
+const server = 'http://localhost:3000/shop';
 
 export default new Vuex.Store({
     state: {

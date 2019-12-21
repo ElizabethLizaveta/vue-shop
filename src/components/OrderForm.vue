@@ -1,7 +1,7 @@
 <template>
   <div class="form">
     <button class="close" @click="closePopup()">
-      <span class="line"></span>
+      Close
     </button>
     <form class="vue-form" @submit.prevent="addInfo">
       <div class="form-group">
@@ -219,31 +219,17 @@ export default {
 
 .close  {
   position: absolute;
-  right: -40px;
-  top: -30px;
+  right: 5px;
+  top: 8px;
   border: 0;
   background: transparent;
+  color:rgb(67, 67, 80);
+  font-size: 20px;
 }
 
-.line {
-  width: 40px;
-  height: 7px;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  display: block;
-  background: rgb(240, 185, 66);
-  transform: rotate(145deg);
-}
-
-.line:after {
-  content: '';
-  width: 40px;
-  height: 7px;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  display: block;
-  background: rgb(240, 185, 66);
-  transform: translateX(-1px) rotate(80deg);
+.close:hover {
+  color:rgb(240, 185, 66);
+  cursor: pointer;
 }
 
 .form {
@@ -258,6 +244,7 @@ export default {
   padding: 30px 30px;
   border: 1px solid transparent;
   border-radius: 10px;
+  height: 80vh;
 }
  
 .vue-form {

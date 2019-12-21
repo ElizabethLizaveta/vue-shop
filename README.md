@@ -1,3 +1,9 @@
+### Run local server
+
+cd node-server
+npm start
+
+
 # vue-shop
 
 ## Project setup
@@ -27,3 +33,5 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+

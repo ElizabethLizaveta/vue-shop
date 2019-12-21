@@ -72,7 +72,7 @@ export default {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 60px;
+  margin-bottom: 10vh;
 }
 
 .category {
